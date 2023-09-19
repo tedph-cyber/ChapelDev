@@ -2,7 +2,7 @@ import * as styles from "@/styles/home.module.css";
 
 export default function Home() {
   return (
-    <main className="font-lucida bg-gradient-to-br from-white to-slate-500 ">
+    <main className=" bg-gradient-to-br from-white to-slate-500 ">
       <div className="inline-flex">
         <h6 className={styles.home1}>
           <p>We</p> 

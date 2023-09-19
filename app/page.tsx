@@ -6,21 +6,21 @@ import Belief from "@/components/belief";
 import Offering from "@/components/offering";
 import Units from "@/components/units";
 import BBA from "@/components/bba";
+import Head from "next/head";
 
 export default function Root() {
   return (
-    <main className="flex min-h-screen bg-white flex-col">
-      <div>
-        <Header />
-
-        <Home />
-        <SOF />
-        <Belief />
-        <Offering />
-        <Units />
-        <BBA />
-        <Footer />
-      </div>
-    </main>
+      <main className="flex min-h-screen bg-white font text-black flex-col">
+        <div>
+          <Header />
+          <Home />
+          <SOF />
+          <Belief />
+          <Offering />
+          <Units />
+          <BBA />
+          <Footer />
+        </div>
+      </main>
   );
 }

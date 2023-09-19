@@ -6,7 +6,7 @@ import kdu from '@/public/images/kdulogo.jpg'
 
 export default function Header() {
     return (
-      <main className="sticky w-screen bg-[#1d1a3b]">
+      <main className="bg-[#1d1a3b] max-h-min">
         <nav className="justify-between py-4 px-16 flex ">
           <div className="p-2 items-center  overflow-hidden">
             <Image

@@ -1,6 +1,6 @@
 export default function SOF() {
   return (
-    <main className="bg-[#1d1a3b] w-screen grid-cols-3 justify-around font-lucida">
+    <main className="bg-[#1d1a3b] w-full grid-rows-3 justify-around ">
       <div className=" text-white text-center py-12 flex-col">
         <h1 className="font-extrabold text-5xl pb-12">Statement of Faith</h1>
         <p className="mx-auto w-3/5">

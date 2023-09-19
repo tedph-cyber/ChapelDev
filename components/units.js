@@ -2,11 +2,11 @@ import WWA from "./wwabutton";
 
 export default function Units() {
   return (
-    <main className="w-screen justify-around font-monospace bg-two-waves bg-cover bg-no-repeat bg-center">
+    <main className="w-full justify-around bg-two-waves bg-cover bg-no-repeat bg-center">
       <div className="">
         <div className=" text-center flex-col">
           <div className="py-6">
-            <h1 className="font-extrabold text-5xl py-6">Serving Units</h1>
+            <h1 className="font-medium text-5xl py-6">Serving Units</h1>
             <p className="mx-auto w-3/4">
               Serving in church offers a fulfilling path for personal growth and
               spiritual enrichment, providing various ways to get involved and
