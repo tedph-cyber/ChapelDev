@@ -1,0 +1,14 @@
+.home {
+    font-family: "Inter", sans-serif;
+    margin-top: 25rem;
+    line-height: 4rem;
+    font-weight: 500;
+}
+
+.home1 {
+    margin-top: 43%;
+    line-height: 1.2rem;
+    text-align : right;
+    flex: auto;
+    padding-right: 8px;
+}
