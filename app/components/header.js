@@ -12,6 +12,7 @@ export default function Header() {
             <Image
               src={kdu}
               className="h-[60px] w-[60px] rounded-full"
+              alt=""
               width={90}
               height={90}
             />
