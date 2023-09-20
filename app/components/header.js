@@ -8,13 +8,13 @@ export default function Header() {
     return (
       <main className="bg-[#1d1a3b] max-h-min">
         <nav className="justify-between py-4 px-16 flex ">
-          <div className="p-2 items-center relative overflow-hidden">
+          <div className=" items-center h-[60px] w-[60px] rounded-full bg-white relative overflow-hidden">
             <Image
+              className="flex mx-auto"
               src={kdu}
-              className="h-[60px] w-[60px] rounded-full bg-white"
               alt=""
-              width={60}
-              height={60}
+              width={30}
+              height={30}
             />
           </div>
           <ul className=" flex items-center justify-evenly">

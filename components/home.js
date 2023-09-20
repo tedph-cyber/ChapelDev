@@ -2,8 +2,8 @@ import "@/styles/home.module.css"
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-br from-rose-100 to-teal-100">
-      <div className="inline-flex mt-[35%] mb-8">
+    <main className="bg-gradient-to-br from-violet-100 to-teal-100">
+      <div className="inline-flex mt-[30%] mb-8">
         <h6 className="pt-14 pl-12 pr-2 leading-5">
           <p>We</p> 
           <p>Love</p>
