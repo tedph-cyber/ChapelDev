@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import kdu from '@/public/images/kdulogo.jpg'
+import kdu from '@/public/images/kduic+.png'
 
 
 
@@ -8,13 +8,13 @@ export default function Header() {
     return (
       <main className="bg-[#1d1a3b] max-h-min">
         <nav className="justify-between py-4 px-16 flex ">
-          <div className="p-2 items-center  overflow-hidden">
+          <div className="p-2 items-center relative overflow-hidden">
             <Image
               src={kdu}
-              className="h-[60px] w-[60px] rounded-full"
+              className="h-[60px] w-[60px] rounded-full bg-white"
               alt=""
-              width={90}
-              height={90}
+              width={60}
+              height={60}
             />
           </div>
           <ul className=" flex items-center justify-evenly">
